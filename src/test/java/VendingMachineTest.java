@@ -55,10 +55,14 @@ public class VendingMachineTest {
         assertEquals(5, vendingMachine.getStockLevelForTray(Selection.A1));
     }
 
-    //    @Test
-//    public void testVendingMachineVends__exactChange() {
-//        vendingMachine.addMoney(0.50);
-//        Product product = vendingMachine.vend(Selection.A1);
-//        assertEquals(4, vendingMachine.);
-//    }
+        @Test
+    public void testVendingMachineVends__exactChange() {
+        vendingMachine.addMoney(0.50);
+        Product product = vendingMachine.vend(Selection.A1);
+        assertEquals(4, vendingMachine.getStockLevelForTray(Selection.A1));
+        assertEquals(10.50, vendingMachine.getCash(), 0.01);
+        assertEquals(0.00, vendingMachine.getCredit(), 0.01);
+        assert(product instanceof Sweet);
+
+    }
 }
