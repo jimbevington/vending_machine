@@ -13,6 +13,10 @@ public class Tray {
     }
 
     public double getPrice() {
-        return price;
+        return this.price;
+    }
+
+    public int getStockLevel() {
+        return this.stock.size();
     }
 }

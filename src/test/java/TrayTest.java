@@ -19,8 +19,13 @@ public class TrayTest {
         assertEquals(0.50, tray.getPrice(), 0.01);
     }
 
-
 //    can report no. of items
+
+    @Test
+    public void name() {
+        assertEquals(0, tray.getStockLevel());
+    }
+
 
 //    can add an item to a tray
 
