@@ -46,9 +46,9 @@ public class VendingMachine {
 //        get Product from tray
                 product = tray.ejectProduct();
 //        cash goes up
-                cash += credit;
+                cash += tray.getPrice();
 //        credit goes down
-                credit = 0;
+                credit -= tray.getPrice();
             }
 
         }
