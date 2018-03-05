@@ -38,4 +38,16 @@ public class VendingMachineTest {
         assertEquals(0.50, vendingMachine.getCredit(), 0.01);
         assertEquals(10.00, vendingMachine.getCash(), 0.01);
     }
+
+//    can take money out
+
+    @Test
+    public void canGiveRefund() {
+        vendingMachine.addMoney(1.50);
+        double refund = vendingMachine.giveRefund();
+        assertEquals(1.50, refund, 0.01);
+        assertEquals(0.00, vendingMachine.getCredit(), 0.01);
+        assertEquals(10.00, vendingMachine.getCash(), 0.01);
+    }
+
 }

@@ -22,4 +22,13 @@ public class VendingMachine {
     public void addMoney(double amountEntered){
         this.credit += amountEntered;
     }
+
+    public double giveRefund() {
+
+        double refundAmount = this.credit;
+
+        this.credit = 0;
+
+        return refundAmount;
+    }
 }

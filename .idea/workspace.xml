@@ -41,8 +41,8 @@
       <file leaf-file-name="VendingMachineTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VendingMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="321">
+              <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,15 +53,15 @@
       <file leaf-file-name="VendingMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="389">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -633,9 +633,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_VendingMachine_test - 2018.03.05 at 12h 15m 47s.xml">
-      <configuration name="All in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_VendingMachine_test - 2018.03.05 at 12h 17m 22s.xml">
       <configuration name="All in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
@@ -661,6 +658,9 @@
       <configuration name="All in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_VendingMachine_test - 2018.03.05 at 14h 02m 04s.xml">
+      <configuration name="All in VendingMachine_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_VendingMachine_test - 2018.03.05 at 14h 35m 05s.xml">
       <configuration name="All in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -859,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VendingMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="321">
+          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,15 +869,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="389">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
           </folding>
         </state>
       </provider>
