@@ -10,4 +10,8 @@ public class Customer {
         this.cash = cash;
         this.inventory = new ArrayList<>();
     }
+
+    public String getName() {
+        return name;
+    }
 }
