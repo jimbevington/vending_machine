@@ -3,22 +3,17 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class DrinkTest {
+public class SweetTest {
 
-    private Drink drink;
+    private Sweet sweet;
 
     @Before
     public void setUp() throws Exception {
-        drink = new Drink("Pepsi", 330);
+        sweet = new Sweet("Refreshers", 50);
     }
 
     @Test
     public void canGetName() {
-        assertEquals("Pepsi", drink.getName());
+        assertEquals("Refreshers", sweet.getName());
     }
-
-
-
-
 }
-
