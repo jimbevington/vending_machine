@@ -35,8 +35,18 @@ public class TrayTest {
         assertEquals(1, tray.getStockLevel());
     }
 
-
 //    can remove an item
+
+    @Test
+    public void testTrayEjectsItem() {
+        Drink drink1 = new Drink("Ice Tea", 500);
+        Drink drink2 = new Drink("Ice Tea", 500);
+        tray.addItem(drink1);
+        tray.addItem(drink2);
+        Product ejectedProduct = tray.ejectProduct();
+        assertEquals(ejectedProduct, drink1);
+    }
+
 
 //    can't add more than capacity
 
