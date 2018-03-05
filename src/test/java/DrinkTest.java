@@ -1,4 +1,3 @@
-import Drink.Drink;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,5 +16,7 @@ public class DrinkTest {
     public void canGetName() {
         assertEquals("Pepsi", drink.getName());
     }
+
+
 }
 
