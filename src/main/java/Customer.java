@@ -18,4 +18,8 @@ public class Customer {
     public double getCash() {
         return this.cash;
     }
+
+    public int inventorySize() {
+        return this.inventory.size();
+    }
 }
